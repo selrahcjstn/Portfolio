@@ -38,7 +38,7 @@ function Home() {
                     </p>
                 </div>
 
-                <div className="flex gap-3 ">
+                <div className="flex gap-3 mt-2">
                     <a className="w-9 sm:w-10 h-9 sm:h-10 cursor-pointer flex items-center justify-center rounded-full border border-[#4d74c0] hover:bg-[#4f4777] transition" href="https://github.com/selrahcjstn" target="_blank">
                         <FiGithub className="text-lg sm:text-xl" />
                     </a>
@@ -53,8 +53,7 @@ function Home() {
                     </a>
                 </div>
 
-                {/* Buttons */}
-                <div className="flex gap-2 mt-4">
+                <div className="flex gap-2">
                     <button className="cursor-pointer px-5 sm:px-6 py-2 text-white rounded-lg hover:opacity-75 text-base sm:text-lg md:text-xl bg-gradient-to-r from-[#9389fe] to-[#7795d3]">
                         Resume
                     </button>
