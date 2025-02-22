@@ -23,7 +23,6 @@ function Home() {
 
     return (
         <section className="h-screen flex flex-col-reverse justify-around sm:flex-row items-center min-h-screen px-5 sm:px-10 md:px-20 gap-4 sm:gap-7">
-            {/* Left Section (Text + Socials) */}
             <div className="flex-1  flex flex-col gap-4 items-center text-center sm:text-left sm:items-start w-full">
                 <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold leading-tight">
                     Hi, I'm <span className="text-[#9389fe]">Charles Justine</span>
@@ -39,19 +38,18 @@ function Home() {
                     </p>
                 </div>
 
-                {/* Social Icons */}
                 <div className="flex gap-3 ">
-                    <a className="w-9 sm:w-10 h-9 sm:h-10 cursor-pointer flex items-center justify-center rounded-full border border-[#4d74c0] hover:bg-[#4f4777] transition" href="">
+                    <a className="w-9 sm:w-10 h-9 sm:h-10 cursor-pointer flex items-center justify-center rounded-full border border-[#4d74c0] hover:bg-[#4f4777] transition" href="https://github.com/selrahcjstn" target="_blank">
                         <FiGithub className="text-lg sm:text-xl" />
                     </a>
-                    <a className="w-9 sm:w-10 h-9 sm:h-10 cursor-pointer flex items-center justify-center rounded-full border border-[#4d74c0] hover:bg-[#4f4777] transition" href="">
-                        <FaFacebook className="text-lg sm:text-xl" />
+                    <a className="w-9 sm:w-10 h-9 sm:h-10 cursor-pointer flex items-center justify-center rounded-full border border-[#4d74c0] hover:bg-[#4f4777] transition" href="https://www.facebook.com/charlesjustine.mantes.750/">
+                        <FaFacebook className="text-lg sm:text-xl" target="_blank" />
                     </a>
                     <a className="w-9 sm:w-10 h-9 sm:h-10 cursor-pointer flex items-center justify-center rounded-full border border-[#4d74c0] hover:bg-[#4f4777] transition" href="">
-                        <FaInstagram className="text-lg sm:text-xl" />
+                        <FaInstagram className="text-lg sm:text-xl" target="_blank" />
                     </a>
                     <a className="w-9 sm:w-10 h-9 sm:h-10 cursor-pointer flex items-center justify-center rounded-full border border-[#4d74c0] hover:bg-[#4f4777] transition" href="">
-                        <FaLinkedin className="text-lg sm:text-xl" />
+                        <FaLinkedin className="text-lg sm:text-xl" target="_blank" />
                     </a>
                 </div>
 
