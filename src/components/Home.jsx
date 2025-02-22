@@ -67,14 +67,14 @@ function Home() {
                 </div>
             </div>
             {/* Right Section (Animation + Blob) */}
-            <div className="pt-10 mt-40 mb-20 flex flex-col items-center justify-center w-fit">
+            <div className="pt-10 mt-30 mb-15 flex flex-col items-center justify-center w-fit">
 
                 {/* Background Blob */}
                 <div className="absolute flex justify-center">
                     <img
                         src={blob}
                         alt="blob"
-                        className="w-[250px] sm:w-[420px] md:w-[400px] opacity-50"
+                        className="w-[180px] sm:w-[420px] md:w-[400px] opacity-50"
                     />
                 </div>
 
@@ -83,7 +83,7 @@ function Home() {
                     <Lottie
                         animationData={animation}
                         loop
-                        className="w-[200px] sm:w-[200px] md:w-[350px]"
+                        className="pt-10 w-[150px] sm:w-[200px] md:w-[350px]"
                     />
                 </div>
             </div>
