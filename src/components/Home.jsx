@@ -22,7 +22,7 @@ function Home() {
     }, []);
 
     return (
-        <section className="h-screen flex flex-col-reverse justify-around sm:flex-row items-center min-h-screen px-5 sm:px-10 md:px-20 gap-4 sm:gap-7">
+        <section className="min-w-[320px] h-screen flex flex-col-reverse justify-around sm:flex-row items-center min-h-screen px-5 sm:px-10 md:px-20 gap-4 sm:gap-7">
             {/* Left Section (Text + Socials) */}
             <div className="flex-1  flex flex-col gap-4 items-center text-center sm:text-left sm:items-start w-full">
                 <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold leading-tight">
@@ -32,7 +32,7 @@ function Home() {
                     <p className="text-lg sm:text-xl md:text-[28px]">
                         I'm a <span className="text-[#9389fe] font-semibold" ref={el}></span>
                     </p>
-                    <p className="text-sm sm:text-base md:text-[18px] leading-relaxed tracking-wide">
+                    <p className="text-sm min-w-[420px] flex-nowrap px-4 sm:text-base md:text-[18px] leading-relaxed tracking-wide">
                         I specialize in building web-based projects and developing business applications that bring efficiency
                         and innovation to digital platforms. With expertise in front-end technologies like React and JavaScript,
                         I create interactive, visually appealing, and high-performance applications that enhance user experience.
@@ -40,7 +40,7 @@ function Home() {
                 </div>
 
                 {/* Social Icons */}
-                <div className="flex gap-3 mt-4">
+                <div className="flex gap-3 ">
                     <a className="w-9 sm:w-10 h-9 sm:h-10 cursor-pointer flex items-center justify-center rounded-full border border-[#4d74c0] hover:bg-[#4f4777] transition" href="">
                         <FiGithub className="text-lg sm:text-xl" />
                     </a>
@@ -56,7 +56,7 @@ function Home() {
                 </div>
 
                 {/* Buttons */}
-                <div className="flex gap-4 mt-4">
+                <div className="flex gap-2 mt-4">
                     <button className="cursor-pointer px-5 sm:px-6 py-2 text-white rounded-lg hover:opacity-75 text-base sm:text-lg md:text-xl bg-gradient-to-r from-[#9389fe] to-[#7795d3]">
                         Resume
                     </button>
@@ -67,7 +67,7 @@ function Home() {
                 </div>
             </div>
             {/* Right Section (Animation + Blob) */}
-            <div className="pt-10 mt-30 mb-15 flex flex-col items-center justify-center w-fit">
+            <div className="pt-10 mt-20 mb-10 flex flex-col items-center justify-center w-fit">
 
                 {/* Background Blob */}
                 <div className="absolute flex justify-center">
