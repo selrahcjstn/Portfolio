@@ -22,23 +22,24 @@ function Home() {
     }, []);
 
     return (
-        <section className="h-screen flex flex-col-reverse justify-around sm:flex-row items-center min-h-screen px-5 sm:px-10 md:px-20 gap-4 sm:gap-7">
-            <div className="flex-1  flex flex-col gap-4 items-center text-center sm:text-left sm:items-start w-full">
-                <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold leading-tight">
+        <section id="me" className="h-screen flex flex-col-reverse justify-around sm:flex-row items-center min-h-screen px-5 sm:px-10 md:px-20 gap-4 sm:gap-7">
+            <div className="flex-1 flex flex-col gap-4 items-center text-center sm:text-left sm:items-start w-full">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight whitespace-nowrap lg:text-5xl">
                     Hi, I'm <span className="text-[#9389fe]">Charles Justine</span>
                 </h1>
                 <div>
-                    <p className="text-lg sm:text-xl md:text-[28px]">
+                    <p className="text-md sm:text-xl md:text-[26px]">
                         I'm a <span className="text-[#9389fe] font-semibold" ref={el}></span>
                     </p>
-                    <p className="text-sm flex-nowrap px-4 sm:text-base md:text-[18px] leading-relaxed tracking-wide">
+                    <p className="text-sm px-4 sm:px-0 sm:min-w-0 sm:mr-10 md:text-[14px] md:min-w-[3rem] lg:max-w-[900px] lg:m-0 lg:text-[18px] leading-relaxed tracking-wide">
                         I specialize in building web-based projects and developing business applications that bring efficiency
                         and innovation to digital platforms. With expertise in front-end technologies like React and JavaScript,
                         I create interactive, visually appealing, and high-performance applications that enhance user experience.
                     </p>
+
                 </div>
 
-                <div className="flex gap-3 mt-2">
+                <div className="flex gap-3 mt-2  lg:gap-6">
                     <a className="w-9 sm:w-10 h-9 sm:h-10 cursor-pointer flex items-center justify-center rounded-full border border-[#4d74c0] hover:bg-[#4f4777] transition" href="https://github.com/selrahcjstn" target="_blank">
                         <FiGithub className="text-lg sm:text-xl" />
                     </a>
@@ -53,7 +54,7 @@ function Home() {
                     </a>
                 </div>
 
-                <div className="flex gap-2">
+                <div className="flex gap-2 lg:gap-4">
                     <button className="cursor-pointer px-5 sm:px-6 py-2 text-white rounded-lg hover:opacity-75 text-base sm:text-lg md:text-xl bg-gradient-to-r from-[#9389fe] to-[#7795d3]">
                         Resume
                     </button>
@@ -63,15 +64,13 @@ function Home() {
                     </button>
                 </div>
             </div>
-            {/* Right Section (Animation + Blob) */}
-            <div className="pt-10 mt-20 mb-10 flex flex-col items-center justify-center w-fit">
-
-                {/* Background Blob */}
+            <div className="pt-10 mt-20 mb-10 flex flex-col items-center justify-center w-fit relative ">
+                {/* Background Blob Image */}
                 <div className="absolute flex justify-center">
                     <img
                         src={blob}
                         alt="blob"
-                        className="w-[180px] sm:w-[420px] md:w-[400px] opacity-50"
+                        className="w-[180px] sm:w-[250px] md:w-[350px] lg:w-[450px] xl:w-[550px] opacity-50"
                     />
                 </div>
 
@@ -80,7 +79,7 @@ function Home() {
                     <Lottie
                         animationData={animation}
                         loop
-                        className="pt-10 w-[150px] sm:w-[200px] md:w-[350px]"
+                        className="pt-10 w-[150px] sm:w-[200px] md:w-[300px] lg:w-[400px] xl:w-[500px]"
                     />
                 </div>
             </div>
