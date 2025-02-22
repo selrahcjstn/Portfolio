@@ -22,7 +22,7 @@ function Home() {
     }, []);
 
     return (
-        <section className="min-w-[320px] h-screen flex flex-col-reverse justify-around sm:flex-row items-center min-h-screen px-5 sm:px-10 md:px-20 gap-4 sm:gap-7">
+        <section className="h-screen flex flex-col-reverse justify-around sm:flex-row items-center min-h-screen px-5 sm:px-10 md:px-20 gap-4 sm:gap-7">
             {/* Left Section (Text + Socials) */}
             <div className="flex-1  flex flex-col gap-4 items-center text-center sm:text-left sm:items-start w-full">
                 <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold leading-tight">
