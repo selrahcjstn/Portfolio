@@ -32,7 +32,7 @@ function Home() {
                     <p className="text-lg sm:text-xl md:text-[28px]">
                         I'm a <span className="text-[#9389fe] font-semibold" ref={el}></span>
                     </p>
-                    <p className="text-sm min-w-[420px] flex-nowrap px-4 sm:text-base md:text-[18px] leading-relaxed tracking-wide">
+                    <p className="text-sm flex-nowrap px-4 sm:text-base md:text-[18px] leading-relaxed tracking-wide">
                         I specialize in building web-based projects and developing business applications that bring efficiency
                         and innovation to digital platforms. With expertise in front-end technologies like React and JavaScript,
                         I create interactive, visually appealing, and high-performance applications that enhance user experience.
