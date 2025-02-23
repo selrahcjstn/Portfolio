@@ -1,15 +1,14 @@
-import Header from "../components/Header.jsx"
 import Home from "../components/Home.jsx"
 import About from "../components/About.jsx"
 
 function Main() {
     return (
-        <>
-            <Header />
+        <main className="flex flex-col">
             <Home />
             <About />
-        </>
+        </main>
     )
 }
+
 
 export default Main

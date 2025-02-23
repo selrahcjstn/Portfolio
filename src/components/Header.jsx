@@ -6,7 +6,7 @@ function Header() {
 
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <header className="inline-flex bg-[#121027] justify-between lg:px-30 items-center py-4 px-7 md:px-10 w-full fixed z-50">
+    <header className="inline-flex bg-[#121027] justify-between lg:px-30 items-center py-4 px-7 md:px-15 w-full fixed z-50 xl:px-40">
       <div className="flex items-center gap-2">
         <ImPacman className="text-[#8a5ce1] text-2xl lg:text-3x1" />
         <a href="#me" className="text-[18px]  md:text-[28px] font-bold bg-gradient-to-r from-[#8a5ce1] to-[#63c4f0] bg-clip-text text-transparent inline-block cursor-pointer" style={{ fontFamily: "Dancing Script" }}>
