@@ -1,8 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ImPacman } from "react-icons/im";
 import { IoIosMenu, IoMdClose } from "react-icons/io";
 
 function Header() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    document.activeElement?.blur();
+  }, []);
+
 
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -31,15 +37,13 @@ function Header() {
           }`}
       >
         <ul className="text-white flex flex-col lg:flex-row gap-4 lg:gap-10 lg:text-[#ababab] lg:font-semibold">
-          <li className="hover:text-white cursor-pointer transition-colors"><a href="#about">About</a></li>
+          <li className="hover:text-white cursor-pointer transition-colors"><a href="">About</a></li>
           <li className="hover:text-white cursor-pointer transition-colors">Education</li>
           <li className="hover:text-white cursor-pointer transition-colors">Skills</li>
           <li className="hover:text-white cursor-pointer transition-colors">Projects</li>
           <li className="hover:text-white cursor-pointer transition-colors">Contact</li>
         </ul>
       </nav>
-
-
     </header>
   );
 }
