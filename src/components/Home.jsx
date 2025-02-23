@@ -28,10 +28,10 @@ function Home() {
                     Hi, I'm <span className="text-[#9389fe]">{data.name}</span>
                 </h1>
                 <div>
-                    <p className="text-md sm:text-xl md:text-[26px] xl:text-[28px]">
+                    <p className="text-[18px] sm:text-xl md:text-[26px] xl:text-[28px]">
                         I'm a <span className="text-[#9389fe] font-semibold" ref={el}></span>
                     </p>
-                    <p className="text-[#d0d0d0] sm:px-0 sm:min-w-0 sm:mr-10 md:text-[14px] md:min-w-[3rem] lg:max-w-[700px] lg:m-0 lg:text-[16px] xl:text-[18px] leading-relaxed tracking-wide">
+                    <p className="text-[#e6e6e6] text-[14px] font-light sm:px-0 sm:min-w-0 sm:mr-10 md:text-[14px] md:min-w-[3rem] lg:max-w-[700px] lg:m-0 lg:text-[16px] xl:text-[18px] leading-relaxed tracking-wide">
                         {data.paragraph}
                     </p>
 
