@@ -12,7 +12,7 @@ function About() {
             </div>
             <div className="flex flex-col items-center lg:justify-center gap-13 sm:flex-row sm:items-start ">
                 <div className="">
-                    <div className="bg-[#5b55a0] pb-9 rounded-2xl overflow-hidden shadow-[0px_10px_40px_rgba(255,255,255,0.1),0px_-10px_40px_rgba(255,255,255,0.06)] sm:min-w-[250px] flex-1">
+                    <div className="bg-[#352f7b] pb-9 rounded-2xl overflow-hidden shadow-[0px_10px_40px_rgba(255,255,255,0.1),0px_-10px_40px_rgba(255,255,255,0.02)] sm:min-w-[250px] flex-1">
 
                         <div className="flex items-center justify-between flex-1 px-4 py-3 ">
                             <div className="flex gap-2">
