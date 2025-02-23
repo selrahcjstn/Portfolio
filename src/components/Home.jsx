@@ -6,13 +6,9 @@ import Typed from "typed.js";
 
 function Home() {
     const el = useRef(null);
-
     const [data] = useState(homeData);
     const [links] = useState(linksData);
 
-    function renderListBtn() {
-
-    }
     useEffect(() => {
         if (!el.current) return;
         const typed = new Typed(el.current, {
@@ -26,16 +22,16 @@ function Home() {
     }, []);
 
     return (
-        <section id="me" className="h-screen flex flex-col-reverse justify-around sm:flex-row items-center min-h-screen pt-20 px-5 sm:px-10 md:px-15 gap-4 sm:gap-7 lg:px-30 xl:px-40">
+        <section id="me" className="h-screen flex sm:h-fit flex-col-reverse justify-around sm:flex-row items-center min-h-screen pt-20  gap-4 sm:gap-7 ">
             <div className="flex-2 flex flex-col gap-4 items-center text-center sm:text-left sm:items-start w-full">
-                <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight whitespace-nowrap lg:text-5xl xl:text-6xl">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight whitespace-nowrap lg:text-4xl xl:text-5xl">
                     Hi, I'm <span className="text-[#9389fe]">{data.name}</span>
                 </h1>
                 <div>
                     <p className="text-md sm:text-xl md:text-[26px] xl:text-[28px]">
                         I'm a <span className="text-[#9389fe] font-semibold" ref={el}></span>
                     </p>
-                    <p className="text-[#d0d0d0] text-sm px-4 sm:px-0 sm:min-w-0 sm:mr-10 md:text-[14px] md:min-w-[3rem] lg:max-w-[700px] lg:m-0 lg:text-[16px] xl:text-[18px] leading-relaxed tracking-wide">
+                    <p className="text-[#d0d0d0] sm:px-0 sm:min-w-0 sm:mr-10 md:text-[14px] md:min-w-[3rem] lg:max-w-[700px] lg:m-0 lg:text-[16px] xl:text-[18px] leading-relaxed tracking-wide">
                         {data.paragraph}
                     </p>
 

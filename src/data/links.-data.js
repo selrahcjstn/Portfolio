@@ -18,7 +18,7 @@ const linksData = {
         {
             link: "https://linkedin.com/", 
             icon: FaLinkedin
-        }
+        }, 
     ]
 };
 
