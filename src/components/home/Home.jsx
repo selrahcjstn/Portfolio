@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-import homeData from "../data/home-data.js"
-import Content from "./home/Content.jsx";
-import Animation from "./home/Animation.jsx";
-import GradientButton from "./home/GradientButton.jsx";
-import BorderButton from "./home/BorderButton.jsx";
-import LinksButton from "./home/LinksButton.jsx";
+import homeData from "../../data/home-data.js"
+import Content from "./Content.jsx";
+import Animation from "./Animation.jsx";
+import GradientButton from "./GradientButton.jsx";
+import BorderButton from "./BorderButton.jsx";
+import LinksButton from "./LinksButton.jsx";
 
 function Home() {
 

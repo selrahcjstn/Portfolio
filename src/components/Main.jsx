@@ -1,4 +1,4 @@
-import Home from "../components/Home.jsx"
+import Home from "./home/Home.jsx"
 import About from "../components/About.jsx"
 
 function Main() {
