@@ -35,7 +35,7 @@ function Header() {
       </div>
 
       <button
-        className={`text-3xl lg:hidden transition-transform duration-300 ease-in-out ${menuOpen ? "rotate-180 text-blue-400" : "rotate-0 text-white"
+        className={`text-3xl lg:hidden transition-transform duration-300 ease-in-out cursor-pointer ${menuOpen ? "rotate-180 text-blue-400" : "rotate-0 text-white"
           }`}
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Toggle Menu"
