@@ -1,5 +1,5 @@
 import Home from "./home/Home.jsx"
-import About from "../components/About.jsx"
+import About from "./about/About.jsx";
 
 function Main() {
     return (
