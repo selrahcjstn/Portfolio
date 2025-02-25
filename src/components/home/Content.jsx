@@ -20,7 +20,7 @@ function Content({ tagLine, name, paragraph }) {
 
     return (
         <>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight whitespace-nowrap lg:text-4xl xl:text-5xl">Hi, I'm <span className="text-[#9389fe]">{name}</span></h1>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl leading-tight whitespace-nowrap lg:text-4xl xl:text-5xl font-bold">Hi, I'm <span className="text-[#9389fe]">{name}</span></h1>
             <div>
                 <p className="text-[18px] sm:text-xl md:text-[26px] xl:text-[28px]">
                     I'm a <span className="text-[#9389fe] font-semibold" ref={el}></span>
