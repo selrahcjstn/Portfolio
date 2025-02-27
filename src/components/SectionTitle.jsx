@@ -1,8 +1,8 @@
 function SectionTitle({ title, titleDesc }) {
     return (
         <div className="flex flex-col items-center">
-            <p className="text-[#b0b0b0] text-[16px] capitalize">{titleDesc}</p>
-            <h1 className="text-[45px] font-bold capitalize">{title}</h1>
+            <p className="text-[#aaa6c3] text-[14px] uppercase">{titleDesc}</p>
+            <h1 className="text-[52px] font-bold capitalize">{title}</h1>
         </div>
     )
 }

@@ -6,13 +6,13 @@ import Animation from "./Animation.jsx";
 import GradientButton from "./GradientButton.jsx";
 import BorderButton from "./BorderButton.jsx";
 import LinksButton from "./LinksButton.jsx";
-import VerticalLine from "../../utils/verticalLine.jsx";
+import VerticalLine from "./verticalLine.jsx";
 function Home() {
 
     const [data] = useState(homeData);
 
     return (
-        <section id="me" className=" flex sm:h-fit flex-col-reverse justify-around sm:flex-row items-center min-h-screen pt-20  gap-4 sm:gap-7 ">
+        <section id="me" className="flex sm:h-fit flex-col-reverse justify-around sm:flex-row items-center min-h-screen pt-20  gap-4 sm:gap-7 ">
 
             <VerticalLine />
             <div className="flex-2 flex flex-col gap-4 items-center text-center sm:text-left sm:items-start w-full">
