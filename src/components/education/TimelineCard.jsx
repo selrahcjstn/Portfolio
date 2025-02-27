@@ -16,7 +16,7 @@ function Timeline() {
                         </div>
                         <div className="flex-1 w-[2px] bg-gradient-to-b from-[#9389fe] to-[#1b1c21] mr-2"></div>
                     </div>
-                    <div key={index} className="bg-[#25282f] p-6 w-full h-full flex-1 flex flex-col sm:pt-10 rounded-[10px] space-y-5">
+                    <div key={index} className="bg-[#1b1c21] p-6 w-full h-full flex-1 flex flex-col sm:pt-10 rounded-[10px] space-y-5">
 
                         <div className="flex flex-col space-y-1">
 
