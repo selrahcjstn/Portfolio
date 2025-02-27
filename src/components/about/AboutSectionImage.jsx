@@ -1,7 +1,7 @@
 function AboutSectionImage({ img }) {
     return (
         <div>
-            <div className="bg-[#544da7] pb-9 rounded-2xl overflow-hidden shadow-[0px_10px_40px_rgba(255,255,255,0.1),0px_-10px_40px_rgba(255,255,255,0.02)] sm:min-w-[250px] flex-1">
+            <div className="bg-[#3c3678] pb-9 rounded-2xl overflow-hidden shadow-[0px_10px_40px_rgba(255,255,255,0.1),0px_-10px_40px_rgba(255,255,255,0.02)] sm:min-w-[250px] flex-1">
 
                 <div className="flex items-center justify-between flex-1 px-4 py-3 ">
                     <div className="flex gap-2">
