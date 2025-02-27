@@ -7,14 +7,14 @@ function Animation({ blob, animation }) {
                 <img
                     src={blob}
                     alt="blob"
-                    className="w-[300px] md:w-[350px] lg:w-[450px] xl:w-[550px] opacity-50"
+                    className="w-[300px] md:w-[350px] lg:w-[300px] opacity-50"
                 />
             </div>
             <div className="flex justify-center mt-[-50px] sm:mt-[-80px]">
                 <Lottie
                     animationData={animation}
                     loop
-                    className="pt-10 w-[250px] md:w-[300px] lg:w-[400px] xl:w-[500px]"
+                    className="pt-10 w-[250px] md:w-[300px] lg:w-[350px]"
                 />
             </div>
         </div>
