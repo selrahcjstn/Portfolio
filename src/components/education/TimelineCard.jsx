@@ -1,5 +1,5 @@
 import { useState } from "react";
-import timeline from "../../data/educ-timeline";
+import timeline from "../../data/education/educ-timeline";
 
 function Timeline() {
     const [timelineData] = useState(timeline);
@@ -22,7 +22,10 @@ function Timeline() {
                             <p className="text-[#b8b8b8] text-[14px] md:text-[16px] ">{item.school} - <span>{item.location}</span></p>
                         </div>
                         <ul className="text-[14px] md:text-[16px] list-disc sm:list-none sm:pl-0 pl-4 text-[#e6e6e6] leading-relaxed">
-                            <li>{item.description}</li>
+                            {item.descriptions?.map((desc, i) => (
+                                <li key={i}>{desc.description}</li>
+                            ))}
+
                         </ul>
                         <p className="sm:hidden text-[14px] text-[#b8b8b8]">{item.date}</p>
                     </div>

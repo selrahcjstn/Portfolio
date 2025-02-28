@@ -1,4 +1,4 @@
-import aboutData from "../../data/about-data";
+import aboutData from "../../data/about/about-data.js";
 import { useState } from "react";
 import SectionTitle from "../SectionTitle.jsx";
 import AboutSectionImage from "./AboutSectionImage.jsx";

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import homeData from "../../data/home-data.js"
+import homeData from "../../data/home/home-data.js"
 import Content from "./Content.jsx";
 import Animation from "./Animation.jsx";
 import GradientButton from "./GradientButton.jsx";

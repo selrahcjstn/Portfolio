@@ -3,7 +3,7 @@ function TechStack() {
         <div>
             <div>
                 <div>
-                    <img src="" alt="" />
+
                 </div>
                 <div>React</div>
             </div>

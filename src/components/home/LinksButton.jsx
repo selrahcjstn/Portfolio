@@ -1,5 +1,5 @@
 import { useState } from "react";
-import linksData from "../../data/links.-data.js"
+import linksData from "../../data/home/links.-data"
 function LinksButton() {
     const [links] = useState(linksData);
 

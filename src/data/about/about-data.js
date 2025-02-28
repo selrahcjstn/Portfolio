@@ -1,4 +1,4 @@
-import MyProfile from "../assets/me.jpg";
+import MyProfile from "../../assets/me.jpg"
 
 const aboutData = {
     img: MyProfile,  
