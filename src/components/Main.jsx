@@ -1,6 +1,7 @@
 import Home from "./home/Home.jsx"
 import About from "./about/About.jsx";
 import Education from "./education/Education.jsx";
+import Skills from "./skills/Skills.jsx";
 
 function Main() {
     return (
@@ -8,6 +9,7 @@ function Main() {
             <Home />
             <About />
             <Education />
+            <Skills />
         </main>
     )
 }

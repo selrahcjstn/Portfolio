@@ -7,7 +7,7 @@ function Timeline() {
     return (
         <>
             {timelineData.map((item, index) => (
-                <div className="flex gap-5 flex-row items">
+                <div key={index} className="flex gap-5 flex-row items">
                     <div className=" w-32 hidden sm:flex sm:flex-col sm:items-end sm:justify-b sm:gap-3">
                         <div className="flex gap-4 items-center">
                             <p className="text-[#b8b8b8]  p-1  text-[16px] whitespace-nowrap">{item.date}</p>
@@ -16,10 +16,8 @@ function Timeline() {
                         </div>
                         <div className="flex-1 w-[2px] bg-gradient-to-b from-[#9389fe] to-[#1b1c21] mr-2"></div>
                     </div>
-                    <div key={index} className="bg-[#1b1c21] p-6 w-full h-full flex-1 flex flex-col sm:pt-10 rounded-[10px] space-y-5">
-
+                    <div className="bg-[#232329] p-6 w-full h-full flex-1 flex flex-col sm:pt-10 rounded-[10px] space-y-5">
                         <div className="flex flex-col space-y-1">
-
                             <h2 className="text-[18px] md:text-[22px] font-bold leading-tight">{item.course}</h2>
                             <p className="text-[#b8b8b8] text-[14px] md:text-[16px] ">{item.school} - <span>{item.location}</span></p>
                         </div>
