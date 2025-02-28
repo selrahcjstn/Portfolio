@@ -21,11 +21,10 @@ function Timeline() {
                             <h2 className="text-[18px] md:text-[22px] font-bold leading-tight">{item.course}</h2>
                             <p className="text-[#b8b8b8] text-[14px] md:text-[16px] ">{item.school} - <span>{item.location}</span></p>
                         </div>
-                        <ul className="text-[14px] md:text-[16px] list-disc sm:list-none sm:pl-0 pl-4 text-[#e6e6e6] leading-relaxed">
+                        <ul className="text-[14px] md:text-[16px] list-disc sm:list-none space-y-5 sm:pl-0 pl-4 text-[#e6e6e6] leading-relaxed">
                             {item.descriptions?.map((desc, i) => (
                                 <li key={i}>{desc.description}</li>
                             ))}
-
                         </ul>
                         <p className="sm:hidden text-[14px] text-[#b8b8b8]">{item.date}</p>
                     </div>
