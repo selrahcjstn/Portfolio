@@ -16,7 +16,7 @@ function Timeline() {
                         </div>
                         <div className="flex-1 w-[2px] bg-gradient-to-b from-[#9389fe] to-[#1b1c21] mr-2"></div>
                     </div>
-                    <div className="bg-[#232329] p-6 w-full h-full flex-1 flex flex-col sm:pt-10 rounded-[10px] space-y-5">
+                    <div className="bg-[#363450]/50 p-6 w-full h-full flex-1 flex flex-col sm:pt-10 rounded-[10px] space-y-5">
                         <div className="flex flex-col space-y-1">
                             <h2 className="text-[18px] md:text-[22px] font-bold leading-tight">{item.course}</h2>
                             <p className="text-[#b8b8b8] text-[14px] md:text-[16px] ">{item.school} - <span>{item.location}</span></p>
