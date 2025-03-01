@@ -1,0 +1,6 @@
+{techStack.map((item, index) => (
+                    <div key={index} className="flex flex-col items-center">
+                        <item.logo />
+
+                    </div>
+                ))}
