@@ -1,16 +1,18 @@
 import { useState } from 'react';
 import WCanIDoData from '../../data/skills/what-can-i-do-data'
+import SkillsHeader from './SkilsHeader';
+
 function WCanIDo() {
     const [data] = useState(WCanIDoData);
 
     return (
-        <div className="space-y-4 p-6 rounded-[10px]">
-            <div className='bg-gradient-to-r from-[#35334b] via-[#202033] to-[#101013] rounded-[10px] w-fit p-4 sm:px-6 max-w-[720px] whitespace-normal break-words'>
-                <h1 className="text-[26px] font-bold tracking-wide text-white">What Can I Do?</h1>
-                <p className='text-[#d1d1d1] leading-[1.6] text-sm sm:text-base'>
-                    I offer seamless digital experiences, scalable applications, and optimized hardware solutions focused on efficiency and innovation.
-                </p>
-            </div>
+        <div className="space-y-6 rounded-[10px]">
+
+            <SkillsHeader
+                title={'What Can I Do?'}
+                desc={'I offer seamless digital experiences, scalable applications, and optimized hardware solutions focused on efficiency and innovation.'}
+                design={'self-end'}
+            />
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {data.map((items, index) => (
